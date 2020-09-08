@@ -4,9 +4,9 @@ import bodyParser from 'body-parser';
 
 import dotenv from 'dotenv';
 
-import logger from './src/utils/logger';
-import routes from './src/routes';
-import genericErrorHandler from './src/middlewares/genericErrorHandler';
+import logger from './utils/logger';
+import routes from './routes';
+import genericErrorHandler from './middlewares/genericErrorHandler';
 
 const appPort  = 1234;
 
